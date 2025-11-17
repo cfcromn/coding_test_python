@@ -11,7 +11,8 @@ for _ in range(n):
     if RD.count('D') > len(new_list):
         print('error')
         continue
-            
+    
+    
     for i in range(len(RD)):
         if RD[i] == 'R':
             cnt += 1
